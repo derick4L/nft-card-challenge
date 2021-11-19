@@ -1,0 +1,113 @@
+.card {
+  background: var(--dark-blue-card);
+  color: var(--white);
+  padding: 25px;
+  border-radius: 16px;
+  height: auto;
+  max-width: 330px;
+}
+.card-image {
+  height: 330px;
+  width: 330px;
+  border-radius: 9px;
+  position: absolute;
+  z-index: 3;
+}
+.card-image:hover {
+  cursor: pointer;
+  opacity: 0.55;
+  z-index: 2;
+  transition: all 0.15s ease-in-out;
+}
+.backdrop {
+  height: 330px;
+  width: 330px;
+  background: var(--cyan);
+  position: relative;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+}
+
+.view-icon {
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+.card h3 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px 0 15px 0;
+}
+.card p {
+  color: var(--soft-blue);
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+.icons-group,
+.icons-eth,
+.icons-clock,
+.avatar-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 20px 0;
+}
+
+.icons-eth h2,
+.icons-clock h3 {
+  font-size: 18px;
+  padding: 0 0 0 8px;
+}
+
+.icons-eth img,
+.icons-clock img {
+  height: 20px;
+  width: auto;
+}
+
+.icons-eth h2 {
+  color: var(--cyan);
+}
+.icons-clock h3 {
+  color: var(--soft-blue);
+}
+
+hr {
+  border-color: var(--dark-blue-line);
+  background: var(--dark-blue-line);
+  border-style: solid;
+  border-width: 0.5px;
+}
+.avatar-group {
+  padding: 20px 0 0 0;
+  color: var(--soft-blue);
+  width: 100%;
+  display: flex;
+}
+.avatar-group img {
+  height: 36px;
+  width: auto;
+  border: 1px solid var(--white);
+  border-radius: 20px;
+}
+.avatar-group p {
+  padding: 0 0 0 22px;
+  font-size: 18px;
+}
+#creator {
+  color: var(--white);
+}
+.product-title:hover,
+#creator:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}

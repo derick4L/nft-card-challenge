@@ -1,0 +1,29 @@
+@import "/card.css";
+@import "/responsive.css";
+
+:root {
+  --soft-blue: #8bacda;
+  --cyan: #00fff7;
+  --dark-blue-main: #0d192b;
+  --dark-blue-card: #14253d;
+  --dark-blue-line: #2f415b;
+  --white: #ffffff;
+}
+
+* {
+  font-family: "Outfit";
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: var(--dark-blue-main);
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  cursor: default;
+}
