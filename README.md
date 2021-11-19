@@ -50,7 +50,7 @@ I'd say this project was pretty cut and dry. However, I did have bit of trouble 
 ### Useful resources
 
 - [Color Picker by Google](https://g.co/kgs/GS2poQ) - In order to follow the style guide closely was possible. I used Color Picker widget, plugged in the color values given to me, and aliased the values in my global css.
-- [W3 Schools <hr> tag overview](https://www.w3schools.com/tags/tag_hr.asp) - I worked with these tags before but I wanted to style it further. I used this site to review it's properties to see what I could style.
+- [W3 Schools ```<hr>``` tag overview](https://www.w3schools.com/tags/tag_hr.asp) - I worked with these tags before but I wanted to style it further. I used this site to review it's properties to see what I could style.
 - [HTML Favicon Tutorial](https://careerkarma.com/blog/html-favicon/) - I needed a refresher to get the favicon up and running. This site helped me in a little under 2 mins.
 
 ## Author
