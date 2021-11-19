@@ -53,8 +53,6 @@ I'd say this project was pretty cut and dry. However, I did have bit of trouble 
 - [W3 Schools <hr> tag overview](https://www.w3schools.com/tags/tag_hr.asp) - I worked with these tags before but I wanted to style it further. I used this site to review it's properties to see what I could style.
 - [HTML Favicon Tutorial](https://careerkarma.com/blog/html-favicon/) - I needed a refresher to get the favicon up and running. This site helped me in a little under 2 mins.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Derick McMillian](https://www.thederickmcmillian.com)
